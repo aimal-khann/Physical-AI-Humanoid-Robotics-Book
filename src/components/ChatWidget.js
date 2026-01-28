@@ -11,7 +11,7 @@ const ChatWidget = forwardRef((props, ref) => {
     const [isChatLoading, setIsChatLoading] = useState(false);
     const messagesEndRef = useRef(null);
     const history = useHistory();
-    const API_URL = 'https://book-chatbot-backend-production.up.railway.app/ask';
+    const API_URL = 'https://mrxhappy-docusourus-book-backend.hf.space/ask';
 
     useImperativeHandle(ref, () => ({
         sendMessageFromOutside(text) {
