@@ -1,5 +1,5 @@
 import { createAuthClient } from "better-auth/react";
 
 export const authClient = createAuthClient({
-  baseURL: "https://mrxhappy-docusourus-book-backend.hf.space//api/auth",
+  baseURL: "https://mrxhappy-docusourus-book-backend.hf.space/api/auth",
 });
